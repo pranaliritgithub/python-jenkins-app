@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+}
+
+.container {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
