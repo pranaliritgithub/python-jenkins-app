@@ -6,6 +6,7 @@ pipeline {
 
         stage('Clone') {
             steps {
+                git branch: 'main',
                 git 'https://github.com/pranaliritgithub/python-jenkins-app.git'
             }
         }
