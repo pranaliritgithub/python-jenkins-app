@@ -4,13 +4,6 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
-            steps {
-                git branch: 'main',
-                git 'https://github.com/pranaliritgithub/python-jenkins-app.git'
-            }
-        }
-
         stage('Deploy to Target') {
             steps {
                 sh '''
