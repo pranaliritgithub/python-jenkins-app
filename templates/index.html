@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python DevOps Application</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>☁️ Python DevOps Application</h1>
+
+    <p>Application deployed using Jenkins</p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>Application</h2>
+            <p>Python Flask</p>
+        </div>
+
+        <div class="card">
+            <h2>CI/CD</h2>
+            <p>Jenkins</p>
+        </div>
+
+        <div class="card">
+            <h2>Server</h2>
+            <p>Ubuntu EC2</p>
+        </div>
+
+    </div>
+
+    <a href="/health" class="button">
+        Check Health
+    </a>
+
+</div>
+
+</body>
+</html>
